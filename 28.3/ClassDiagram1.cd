@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_28._3.Agenzia">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAQAAAAEAgAA=</HashCode>
+      <FileName>Agenzia.cs</FileName>
+      <NewMemberFileName>agenzia.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Immobile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_28._3.Immobile">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAAAAAgAAEAAAQAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Immobile.cs</FileName>
+      <NewMemberFileName>immobile.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_28._3.Appartamento">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appartamento.cs</FileName>
+      <NewMemberFileName>appartamento.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_28._3.Villa">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Villa.cs</FileName>
+      <NewMemberFileName>villa.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_28._3.Box">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Box.cs</FileName>
+      <NewMemberFileName>box.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
