@@ -12,22 +12,35 @@ namespace _28._3
 
         public List<Immobile> Immobili { get; set; }
 
-        public Immobile Immobile
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public Immobile Immobile { get; set; }
+
 
         public List<Immobile> Ricerca(string id)
         {
-            return this.Immobili.FindAll(Id => Id.ID.Contains(id));
+            List<Immobile> risultati = new List<Immobile>();
+            foreach (var immobile in this.Immobili)
+            {
+                if (immobile.ID == id)
+                {
+                    risultati.Add(immobile);
+                }
+            }
+            return risultati;
+
+            if (string.IsNullOrEmpty(id))
+            {
+                throw new ArgumentNullException("ID non può essere null o vuoto");
+            }
         }
 
         public void Aggiungi(Immobile immobile)
         {
-            this.Immobili.Add(immobile);
+            if (immobile == null)
+            {
+                throw new ArgumentNullException(nameof(immobile));
+            }
+
+            Immobili.Add(immobile);
         }
     }
 }
